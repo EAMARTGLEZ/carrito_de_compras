@@ -43,7 +43,7 @@ header .bi-cart {
   justify-content: end;
   margin-bottom: 3rem;
   margin-left: 75rem;
-  margin-top: 0.6rem;
+  margin-top: -0.8rem;
   padding: 1.225rem;
 }
 .bi-cart span {
@@ -139,7 +139,7 @@ header .bi-cart {
   font-size: 1.2em;
   margin: 1em;
   margin-bottom: 5rem;
-  margin-top: 2em;
+  margin-top: 1em;
   padding: 0.5em 1em;
 }
 /* Modal styles */
