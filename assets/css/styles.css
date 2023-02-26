@@ -43,12 +43,12 @@ header .bi-cart {
   justify-content: end;
   margin-bottom: 3rem;
   margin-left: 75rem;
-  margin-top: -65rem;
+  margin-top: -60rem;
   padding: 1rem;
 }
 .bi-cart span {
   font-size: 50px;
-  margin-top: -355px;
+  margin-top: -55px;
 }
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
