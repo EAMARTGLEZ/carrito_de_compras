@@ -44,10 +44,12 @@ header .bi-cart {
   margin-bottom: 3rem;
   margin-left: 75rem;
   margin-top: 450px;
+  position: relative;
   padding: 1rem;
 }
 .bi-cart span {
   font-size: 50px;
+  position: absolute;
   /*margin-top: -55px;*/
 }
 .material-symbols-outlined {
