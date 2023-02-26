@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Game Store</title>
+  </head>
+  <body>
+    <header>
+      <a href="#"><h1 class="principal">Game Store</h1></a>
+      <button class="view-cart bi-cart">
+            <span class="material-symbols-outlined">
+                shopping_cart
+            </span>
+      </button>
+    </header>
+    <main>
+      <h2 class="products">Prodcutos</h2>
+      <div class="container">
+        <section class="one">
+          <div class="product">
+            <img src="assets/image/tecladogamerocelot.png" class="product-item" alt="Product 1" />
+            <h3 class="title">Teclado Gamer Mecanico Ocelot OGMK02 RGB </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$10.00</p>
+            <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="assets/image/audifonos_gamer.png" alt="Product 2" />
+            <h3 class="title">Audifonos gamer </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$20.00</p>
+            <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="assets/image/mouse_gamer.png" alt="Product 3" />
+            <h3 class="title">Mouse gamer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$30.00</p>
+            <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+          </div>
+        </section>
+        <section class="two">
+          <div class="product">
+            <img src="assets/image/monitor_gamer.png" alt="Product 1" />
+            <h3 class="title">Monitor gamer Asus</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$10.00</p>
+            <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="assets/image/Captura-de-Pantalla-2022-07-19-a-las-7.14.37-p.m..png" alt="Product 2" />
+            <h3 class="title">Gabinete Edition EVA Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$20.00</p>
+            <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="assets/image/mouse _pad_gamer.png" alt="Product 3" />
+            <h3 class="title">Mouse pad gamer RGB XL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$30.00</p>
+            <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+          </div>
+        </section>
+        <section class="three">
+          <div class="product">
+            <img src="assets/image/Rog_Strix_EVA_Edition.png" alt="Product 1" />
+            <h3 class="title">Product 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$10.00</p>
+            <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="assets/image/TUF-GAMING-B550M.png" alt="Product 2" />
+            <h3 class="title">Tarjeta grafica Rog Strix rtx 3080 EVA Edition</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$20.00</p>
+            <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+          </div>
+          <div class="product">
+            <img src="assets/image/silla_gamer.png" alt="Product 3" />
+            <h3 class="title">Silla gamer Gnae Factor CGC600</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum officia rem facilis quam totam.</p>
+            <p class="price">$30.00</p>
+            <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+          </div>
+        </section>
+      </div>
+      <br/>
+      <!--<div class="container-button">
+        <button class="view-cart">View Cart</button>
+      </div>-->
+    </main>
+    <div class="cart-modal hidden" id="cart-modal">        
+      <div class="cart-items"></div><span class="material-symbols-outlined close-cart">
+        close
+       </span>
+      <button class="checkout">Comprar</button>
+    </div>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
